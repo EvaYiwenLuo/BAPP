@@ -1,0 +1,91 @@
+body {
+  background-size: 100%;
+  color:white;
+  background-image:url('https://media.giphy.com/media/xT0xexaUeGWCA5WDN6/giphy.gif');
+}
+inside{
+  line-height:35px;
+  font-family: 'Hammersmith One', sans-serif;
+  background-color:rgb(23,53,114);
+  border-style: solid;
+  border-width:thick;
+  border-color:white;
+  padding:30%;
+  padding-bottom:40%;
+  width:40%;
+  display: block; 
+}
+p{
+  margin-top:-30px;
+  margin-left:-70px;
+  font-size:15px;
+}
+block{
+  line-height:35px;
+  font-family: 'Hammersmith One', sans-serif;
+  background-color:white;
+  border-style: solid;
+  border-width:thick;
+  border-color:white;
+  margin-top:-120px;
+  padding:30%;
+  padding-bottom:70%;
+  width:40%;
+  display: block; 
+}
+h1 {  
+  margin-top:-40px;
+  font-size: 60px;
+  text-align:center;
+}
+#Navigation{
+  padding:20px;
+  font-size:10px;
+  margin-left: -70px;
+  float:left;
+  margin-top: -80px;
+  width: 184%;
+  border-radius:10px;
+  background-color:rgb(23,53,114);
+  overflow:auto;
+}
+a{
+  border-radius:10px;
+  padding:6px;
+  border-style:solid;
+  border-width:1px;
+  text-decoration:none; 
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-shadow:0px 2px 0px black;
+}
+.active {
+  font-size:10px;
+  background-color:royalblue;
+  text-decoration: none;
+  border-radius:10px;
+  padding:10px;
+  width:10%;
+  z-index:999;
+  text-align:center;
+  color: white;
+}
+footer{
+  position:absolute;
+  bottom:0;
+  left:0;
+  font-size:10px;
+  font-style:italic;
+  line-height:9px;
+  margin:0px;
+  color:white;
+}
